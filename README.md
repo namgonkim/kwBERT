@@ -34,7 +34,7 @@
 
 ## Reference
 <h3> 1)Google-bert https://github.com/google-research/bert </h3> <br>
- * BERT-base
+ * BERT-base <br>
 
 <h3> 2) Hanbert https://github.com/tbai2019/HanBert-54k-N </h3> <br>
  * HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
