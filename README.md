@@ -9,8 +9,10 @@
 조원 안승기<br>
 조원 부상혁<br>
 
+
 ## 목표
 인공지능 기반 자연어 처리 기술을 이용한 개체명 인식기 개발 <br>
+
 
 ## 전체 시스템 구조도
 ![system_model](https://user-images.githubusercontent.com/32921225/83033390-02170380-a072-11ea-9156-89edb5b49521.png)
@@ -20,6 +22,7 @@
 4. Output Module <br>
 5. Web & Web Server(PHP & Apache) <br>
 
+
 ## 실행환경
  * OS : Windows 10 <br>
  * GPU : RTX2080 8GB <br>
@@ -27,6 +30,7 @@
  * Python : 3.6.8rc1 <br>
  * Tensorflow-gpu : 1.12.0 <br>
  * CUDA : 9.0 <br>
+
 
 ## 한국어 데이터
  * 엑소브레인 한국어 말뭉치 데이터 <br>
@@ -49,6 +53,13 @@
 | Precision  | **85.21**   |
 | Recall     | **84.83**   |
 | F1         | **85.01**   |
+
+
+## Result-Screen
+ * Input.php
+![input](https://user-images.githubusercontent.com/32921225/83036974-2ffe4700-a076-11ea-8589-af40547d20d2.png)
+ * Result.php
+![result](https://user-images.githubusercontent.com/32921225/83036984-312f7400-a076-11ea-99a9-17470cbb4e8f.PNG)
 
 
 ## Reference
