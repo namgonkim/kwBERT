@@ -33,10 +33,10 @@
  * 국립국어원 개체명 말뭉치 데이터 <br>
 
 ## Reference
-1)Google-bert https://github.com/google-research/bert
+1) Google-bert (https://github.com/google-research/bert)
  * BERT-base <br>
 
-2)Hanbert https://github.com/tbai2019/HanBert-54k-N
+2) Hanbert (https://github.com/tbai2019/HanBert-54k-N)
  * HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
    - bert_config.json <br>
    - checkpoint <br>
