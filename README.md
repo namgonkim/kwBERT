@@ -22,14 +22,14 @@
 
 # Reference
 <h3> 1)Google-bert https://github.com/google-research/bert </h3> <br>
-  BERT-base
+&nbsp;BERT-base
 
 
 <h3> 2) Hanbert https://github.com/tbai2019/HanBert-54k-N </h3> <br>
-  HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
-  bert_config.json <br>
-  checkpoint <br>
-  model.ckpt-3000000.data-00000-of-00001 <br>
-  model.ckpt-3000000.meta <br>
-  model.ckpt-3000000.index <br>
-  vocab_54k.txt <br>
+&nbsp;HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
+&nbsp;bert_config.json <br>
+&nbsp;checkpoint <br>
+&nbsp;model.ckpt-3000000.data-00000-of-00001 <br>
+&nbsp;model.ckpt-3000000.meta <br>
+&nbsp;model.ckpt-3000000.index <br>
+&nbsp;vocab_54k.txt <br>
