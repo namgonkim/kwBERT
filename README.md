@@ -8,41 +8,40 @@
 조원 안승기<br>
 조원 부상혁<br>
 
-# 목표
+## 목표
 인공지능 기반 자연어 처리 기술을 이용한 개체명 인식기 개발 <br>
 
-# 전체 시스템 구조도
-![system_model](https://user-images.githubusercontent.com/32921225/83030896-e2321080-a06e-11ea-867a-132148deec7f.png)
+## 전체 시스템 구조도
+![system_model](https://user-images.githubusercontent.com/32921225/83033390-02170380-a072-11ea-9156-89edb5b49521.png)
 1. Training Module <br>
 2. Input & Preprocess Module <br>
 3. Running Module <br>
 4. Output Module <br>
 5. Web & Web Server(PHP & Apache) <br>
 
-# 실행환경
-OS: Windows 10 <br>
-GPU: RTX2080 8GB <br>
-RAM: 32GB <br>
-Python: 3.6.8rc1 <br>
-Tensorflow-gpu: 1.12.0 <br>
-CUDA: 9.0 <br>
+## 실행환경
+ * OS : Windows 10 <br>
+ * GPU : RTX2080 8GB <br>
+ * RAM : 32GB <br>
+ * Python : 3.6.8rc1 <br>
+ * Tensorflow-gpu : 1.12.0 <br>
+ * CUDA : 9.0 <br>
 
-# 한국어 데이터
-엑소브레인 한국어 말뭉치 데이터 <br>
-네이버 NLP 챌린지 말뭉치 데이터 <br>
-국립국어원 개체명 말뭉치 데이터 <br>
+## 한국어 데이터
+ * 엑소브레인 한국어 말뭉치 데이터 <br>
+ * 네이버 NLP 챌린지 말뭉치 데이터 <br>
+ * 국립국어원 개체명 말뭉치 데이터 <br>
 
-# Reference
+## Reference
 <h3> 1)Google-bert https://github.com/google-research/bert </h3> <br>
-BERT-base
-
+ * BERT-base
 
 <h3> 2) Hanbert https://github.com/tbai2019/HanBert-54k-N </h3> <br>
-HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
-bert_config.json <br>
-checkpoint <br>
-model.ckpt-3000000.data-00000-of-00001 <br>
-model.ckpt-3000000.meta <br>
-model.ckpt-3000000.index <br>
-vocab_54k.txt <br>
+ * HanBert-54kN : HanBert 기본 모델 (300만 Step 학습) <br>
+   - bert_config.json <br>
+   - checkpoint <br>
+   - model.ckpt-3000000.data-00000-of-00001 <br>
+   - model.ckpt-3000000.meta <br>
+   - model.ckpt-3000000.index <br>
+   - vocab_54k.txt <br>
 
