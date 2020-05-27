@@ -35,6 +35,8 @@
 
 ## Hyper Parameters
 
+|               |          |
+| ------------- | -------- |
 | Epoch         | **20**   |
 | Batch Size    | **16**   |
 | Learning Rate | **5e-5** |
@@ -42,6 +44,8 @@
 
 ## Result
 
+|            |             |
+| ---------- | ----------- |
 | Precision  | **85.21**   |
 | Recall     | **84.83**   |
 | F1 Score   | **85.01**   |
