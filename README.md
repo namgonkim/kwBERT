@@ -33,6 +33,20 @@
  * 네이버 NLP 챌린지 말뭉치 데이터 <br>
  * 국립국어원 개체명 말뭉치 데이터 <br>
 
+## Hyper Parameters
+| ------------- | -------- |
+| Epoch         | **20**   |
+| Batch Size    | **16**   |
+| Learning Rate | **5e-5** |
+| --------------| -------- |
+
+## Result
+| ---------- | ----------- |
+| Precision  | **85.21**   |
+| Recall     | **84.83**   |
+| F1 Score   | **85.01**   |
+| ---------- | ----------- |
+
 ## Reference
 1) Google-bert (https://github.com/google-research/bert)
  * BERT-base <br>
