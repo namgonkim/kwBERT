@@ -65,6 +65,7 @@
 
 
 ## Reference
+
 1) Google-bert (https://github.com/google-research/bert)
  * BERT-base <br>
 
@@ -77,3 +78,7 @@
    - model.ckpt-3000000.index <br>
    - vocab_54k.txt <br>
 
+3) T-Academy 김성현 BERT
+ * https://drive.google.com/drive/folders/1QQphR2tmk5g6BheZKZ5q8WhX5yixV8xZ
+ 
+Thank you :)
