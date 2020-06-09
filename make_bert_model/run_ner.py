@@ -128,7 +128,7 @@ flags.DEFINE_integer(
     "num_tpu_cores", 8,
     "Only used if `use_tpu` is True. Total number of TPU cores to use.")
 
-flags.DEFINE_string("middle_output","C:\\Users\\cine\\Desktop\\HanBert-54kN\\middle_data", "Dir was used to store middle data!")
+flags.DEFINE_string("middle_output","C:\\Users\\cine\\Desktop\\kwbert\\middle_data", "Dir was used to store middle data!")
 flags.DEFINE_bool("crf", True, "use crf!")
 
 class InputExample(object):
@@ -413,7 +413,7 @@ def softmax_layer(logits,labels,num_labels,mask):
     one_hot_labels = tf.one_hot(labels, depth=num_labels, dtype=tf.float32)
     loss = tf.losses.softmax_cross_entropy(logits=logits,onehot_labels=one_hot_labels)
    # loss = tf.losses.softmax_cross_entropy(logits=logits,onehot_labels=one_hot_labels, label_smoothing=5)
-   # loss = tf.losses.softmax_cross_entropy(logits=logits,onehot_labels=one_hot_labels, weights = 10.0)
+   # loss = tf.losses.softmax_cross_entropy(logits=logits,onehot_labels=one_hot_labels, weights = 5.0)
    # loss = tf.losses.softmax_cross_entropy(logits=logits,onehot_labels=one_hot_labels, reduction=losses.Reduction.MEAN)
     loss *= tf.reshape(mask, [-1])
     loss = tf.reduce_sum(loss)
