@@ -5,7 +5,7 @@ import time
 import os
 from os.path import join
 
-f = open('C:\\Users\\cine\\Desktop\\HanBert-54kN\\preprocess\\input_text.txt','r',encoding='utf-8')
+f = open('C:\\Users\\cine\\Desktop\\HanBert-54kN\\Preprocess_mod\\input_text.txt','r',encoding='utf-8')
 f1 = open('C:\\Users\\cine\\Desktop\\HanBert-54kN\\data\\test.txt','w',encoding='utf-8')
 
 
