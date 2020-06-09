@@ -3,6 +3,7 @@
 개체명 인식기 개발<br>
 광운대학교 컴퓨터정보공학부<br>
 참여기업: 한화시스템<br>
+![참여기업_학교](https://user-images.githubusercontent.com/32921225/84117136-00830d80-aa6c-11ea-9e22-b4e8e75f3225.png)
 
 조장 송광원<br>
 조원 김남곤<br>
