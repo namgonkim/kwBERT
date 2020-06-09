@@ -9,12 +9,12 @@ function get_time() {
 
 function test(){
 
-  $myfile = @fopen("C:\Users\cine\Desktop\HanBert-54kN\preprocess\input_text.txt", "w");
+  $myfile = @fopen("C:\Users\cine\Desktop\HanBert-54kN\Preprocess_mod\input_text.txt", "w");
 
   fwrite($myfile, $_POST["t_data"]);
   fclose($myfile);
 
-  passthru('C:\Users\cine\AppData\Local\Programs\Python\Python36\python.exe C:\Users\cine\Desktop\HanBert-54kN\preprocess\input_test.py');
+  passthru('C:\Users\cine\AppData\Local\Programs\Python\Python36\python.exe C:\Users\cine\Desktop\HanBert-54kN\Preprocess_mod\input_preprocess.py');
 
 
   passthru('C:\Users\cine\AppData\Local\Programs\Python\Python36\python.exe C:\Users\cine\Desktop\HanBert-54kN\make_bert_model\run_ner.py --data_dir=C:\Users\cine\Desktop\HanBert-54kN\data --task_name="NER" --vocab_file=C:\Users\cine\Desktop\HanBert-54kN\conf_base\vocab.txt --bert_config_file=C:\Users\cine\Desktop\HanBert-54kN\conf_base\bert_config.json --do_lower_case=False --crf=False --do_train=False --do_eval=False --do_predict=True --output_dir=C:\Users\cine\Desktop\HanBert-54kN\output\NER_output_b16_lr5e-5_e22_w5 --max_seq_length=128 --train_batch_size=16 --learning_rate=5e-5 --num_train_epochs=5.0 --init_checkpoint=C:\Users\cine\Desktop\HanBert-54kN\p_model_base\model.ckpt-3000000');
